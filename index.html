@@ -1,50 +1,194 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mr. Robot</title>
-    <link href="index.html" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="fav-mr-robot.ico" type="image/x-icon">
+
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
-                background-image: url(elliot.jpg);
-            }
+            background-image: url(elliot.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+            color: #fff;
+        }
 
-    .botao-hacker{text-decoration: none;
-    
-    }
+        /* ===== TARJA DO SITE (mantida igual) ===== */
+        .tarja-site {
+            position: relative;
+            z-index: 100;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 40px;
+            background: rgba(0, 0, 0, 0.75);
+            border-bottom: 2px solid #e74c3c;
+            box-shadow: 0 0 20px rgba(231, 76, 60, 0.5);
+        }
 
+        .logo-img {
+            height: 45px;
+            filter: drop-shadow(0 0 6px #e74c3c);
+        }
+
+        .navegacao ul {
+            display: flex;
+            gap: 25px;
+            list-style: none;
+        }
+
+        .navegacao a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: color 0.3s ease;
+        }
+
+        .navegacao a:hover {
+            color: #e74c3c;
+            text-shadow: 0 0 8px #e74c3c;
+        }
+
+        /* ===== FORMULÁRIO DE LOGIN (sobreposto, abaixo da tarja) ===== */
+        .login-container {
+            position: relative;
+            z-index: 10;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: calc(100vh - 80px);
+            padding: 30px;
+        }
+
+        .login-box {
+            width: 100%;
+            max-width: 400px;
+            padding: 40px 35px;
+            background: rgba(15, 15, 15, 0.88);
+            border: 1px solid #e74c3c;
+            border-radius: 10px;
+            box-shadow: 0 0 25px rgba(231, 76, 60, 0.7),
+                        0 0 60px rgba(231, 76, 60, 0.3);
+            backdrop-filter: blur(6px);
+        }
+
+        .login-box h2 {
+            text-align: center;
+            color: #e74c3c;
+            font-size: 26px;
+            margin-bottom: 25px;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            text-shadow: 0 0 10px #e74c3c;
+        }
+
+        .login-box label {
+            display: block;
+            color: #ccc;
+            font-size: 13px;
+            margin-bottom: 6px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .login-box input {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 18px;
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid #444;
+            border-radius: 6px;
+            color: #fff;
+            font-size: 14px;
+            transition: all 0.3s ease;
+        }
+
+        .login-box input::placeholder {
+            color: #888;
+        }
+
+        .login-box input:focus {
+            outline: none;
+            border-color: #e74c3c;
+            box-shadow: 0 0 10px rgba(231, 76, 60, 0.7);
+            background: rgba(255, 255, 255, 0.12);
+        }
+
+        .login-box button {
+            width: 100%;
+            padding: 13px;
+            background: #e74c3c;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 15px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .login-box button:hover {
+            background: #c0392b;
+            box-shadow: 0 0 15px #e74c3c,
+                        0 0 30px #e74c3c,
+                        0 0 45px #e74c3c;
+            transform: translateY(-2px);
+        }
     </style>
 </head>
 
 <body>
 
-   <header class="tarja-site">
-    <div class="marca">
-        <a href="index.html">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Mr._Robot_Logo.svg" alt="Mr. Robot" class="logo-img">
-        </a>
-    </div>
+    <!-- ===== TARJA COM A LOGO (mantida exatamente como estava) ===== -->
+    <header class="tarja-site">
+        <div class="marca">
+            <a href="index.html">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Mr._Robot_Logo.svg" 
+                     alt="Mr. Robot" 
+                     class="logo-img">
+            </a>
+        </div>
 
-    <nav class="navegacao">
-        <ul>
-            <li><a href="serie/personagens/personagens.html">Série</a></li>
-            <li><a href="#">Temporadas</a></li>
-            <li><a href="#">Sobre nós</a></li>
+        <nav class="navegacao">
+            <ul>
+                <li><a href="serie/personagens/personagens.html">Série</a></li>
+                <li><a href="#">Temporadas</a></li>
+                <li><a href="#">Sobre nós</a></li>
             </ul>
         </nav>
     </header>
 
-    <div class="texto-fsociety">
-        <h1>Bem-vindos à fsociety.</h1>
-        <p class="subtitulo efeito-digitacao">Você é um 0 ou 1?<span class="cursor">|</span></p>
+    <!-- ===== FORMULÁRIO DE LOGIN SOBREPOSTO ===== -->
+    <div class="login-container">
+        <div class="login-box">
+            <h2>Login</h2>
+            <form>
+                <label for="usuario">Usuário</label>
+                <input type="text" id="usuario" placeholder="Digite seu usuário">
 
-        <a target="_blank" href="index_protótipo/index login.html" class="botao-hacker"> Descubra agora</a>
-        <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3emE4bzloZDE5bDh4NjAxOXB2YndheGp2YXBxbHpneXljZ2QxamowZyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Cfiid6I8YDKqrCxAaY/giphy.gif" alt="GIF">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" placeholder="Digite sua senha">
+
+                <button type="submit">Entrar</button>
+            </form>
+        </div>
     </div>
-
 
 </body>
 </html>
