@@ -51,6 +51,9 @@
 
 .botao-hacker {
     display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     margin-top: 30px;
     padding: 12px 30px;
     background-color: transparent;
@@ -64,6 +67,7 @@
     cursor: pointer;
     transition: all 0.3s ease; /* comando novo que eu n sei oq é mas bora ve como é */
     border-radius: 4px;
+    text-decoration: none;
 }
 
 .botao-hacker:hover {
