@@ -318,7 +318,7 @@
                       url('https://0chustaff.github.io/HTML-108-MR-ROBOT/backgrounds/mr-robot-logo-sd.jpeg') !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
-    background-position: center center !important;
+    background-position: center 70px !important; 
     background-attachment: scroll !important; 
     display: flex;
     justify-content: center;
