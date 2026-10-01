@@ -235,6 +235,17 @@
     position: relative;
 }
 
+.navegacao > ul > li > a 
+{
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 15px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
 .navegacao .submenus {
     display: none !important;
     position: absolute;
@@ -271,6 +282,8 @@
     white-space: nowrap;
     text-align: left !important;
     box-sizing: border-box !important;
+    font-family: 'Ubuntu Mono',monospace;
+    font-weight: 400;
 }
 
 .navegacao .submenus li a:hover {
@@ -282,3 +295,5 @@
 .navegacao li.categorias:hover > .submenus {
     display: block !important;
 }
+
+/* vai se fuder mano. demorou pra porra
