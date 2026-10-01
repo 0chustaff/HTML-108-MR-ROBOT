@@ -361,7 +361,7 @@
     font-family: 'Ubuntu Mono', monospace; 
 }
 
-.secao-protagonista {
+.secao-elliot {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -369,11 +369,11 @@
     margin-bottom: 80px;
 }
 
-.texto-protagonista {
+.texto-elliot {
     flex: 1;
 }
 
-.texto-protagonista h2 {
+.texto-elliot h2 {
     font-family: 'Fira Code', monospace; 
     font-size: 1.8rem;
     color: #ff2a2a;
@@ -383,7 +383,7 @@
     padding-left: 12px;
 }
 
-.texto-protagonista p {
+.texto-elliot p {
     font-family: 'Ubuntu Mono', monospace; 
     font-size: 1.2rem; 
     line-height: 1.6;
@@ -391,13 +391,13 @@
     margin-bottom: 15px;
 }
 
-.imagem-protagonista {
+.imagem-elliot {
     flex: 1;
     display: flex;
     justify-content: center;
 }
 
-.imagem-protagonista img {
+.imagem-elliot img {
     width: 100%;
     max-width: 420px;
     border-radius: 4px;
@@ -406,13 +406,13 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.imagem-protagonista img:hover {
+.imagem-elliot img:hover {
     transform: scale(1.02);
     box-shadow: 0 0 25px rgba(255, 42, 42, 0.4);
 }
 
 @media (max-width: 768px) {
-    .secao-protagonista {
+    .secao-elliot {
         flex-direction: column;
     }
 }
