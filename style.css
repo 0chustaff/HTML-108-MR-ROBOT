@@ -303,7 +303,7 @@
     width: 100%;
     height: 60vh; 
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), #000000), 
-    url('mr-robot-logo-sd.jpg') no-repeat center center;
+    url('../mr-robot-logo-sd.jpeg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     display: flex;
