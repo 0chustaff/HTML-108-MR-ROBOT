@@ -4,240 +4,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personagens - Mr. Robot</title>
-    <link rel="stylesheet" href="personagens.css">
-    <link rel="shortcut icon" href="../fav-mr-robot.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../personagens/personagens.css">
+    <link rel="shortcut icon" href="fav-mr-robot.ico" type="image/x-icon">
     <style>
         body {
             background-image: url("https://imgs.search.brave.com/g11uFO6ZTm68iWlP2kHaWOpbJcnFPfAgU70LLGEqkQo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1Qk9UZzROVEJp/WkRBdFpUYzBZUzAw/TnpabExUZzRZMkl0/TkdRM00yWmxNRE01/TVdRelhrRXlYa0Zx/Y0djQC5qcGc");
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-            min-height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
-            color: #fff;
-        }
-
-        /* Tarja do site */
-        .tarja-site {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 15px 40px;
-            background: rgba(0, 0, 0, 0.8);
-            border-bottom: 2px solid #e74c3c;
-        }
-
-        .logo-img {
-            height: 45px;
-        }
-
-        .navegacao ul {
-            display: flex;
-            gap: 25px;
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
-
-        .navegacao a {
-            color: #fff;
-            text-decoration: none;
-            font-size: 14px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-
-        .navegacao a:hover {
-            color: #e74c3c;
-        }
-
-        /* Título */
-        h1 {
-            text-align: center;
-            color: #e74c3c;
-            font-family: 'Orbitron', sans-serif;
-            text-transform: uppercase;
-            letter-spacing: 3px;
-            margin: 40px 0 20px 0;
-            text-shadow: 0 0 10px #e74c3c;
-        }
-
-        /* Tabela */
-        .tabela {
-            margin: 0 auto 60px auto;
-            border-collapse: collapse;
-            background: rgba(0, 0, 0, 0.75);
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 0 25px rgba(231, 76, 60, 0.4);
-            max-width: 900px;
-            width: 90%;
-        }
-
-        .tabela th {
-            background: #e74c3c;
-            color: #000;
-            padding: 12px;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            font-size: 14px;
-        }
-
-        .tabela td {
-            padding: 12px;
-            border-bottom: 1px solid #333;
-            color: #fff;
-            font-size: 14px;
-        }
-
-        .tabela tr:hover {
-            background: rgba(231, 76, 60, 0.15);
-        }
-
-        .tabela img {
-            height: 120px;
-            width: auto;
-            border-radius: 6px;
-            display: block;
-        }
-
-        .ator a {
-            color: #ff2a2a;
-            text-decoration: none;
-            font-weight: bold;
-            transition: all 0.3s ease;
-        }
-
-        .ator a:hover {
-            color: #fff;
-            text-shadow: 0 0 10px #ff2a2a;
         }
     </style>
 </head>
 
 <body>
 
-    <!-- CABEÇALHO (logo + navegação JUNTOS) -->
-    <header class="tarja-site">
-        <div class="marca">
-            <a href="../index.html">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Mr._Robot_Logo.svg" 
-                     alt="Mr. Robot" 
-                     class="logo-img">
-            </a>
-        </div>
+<!-- CABEÇALHO -->
+<header class="tarja-site">
+    <div class="marca">
+        <a href="../index.html">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Mr._Robot_Logo.svg" 
+                 alt="Mr. Robot" 
+                 class="logo-img">
+        </a>
+    </div>
 
-        <nav class="navegacao">
-            <ul>
-                <li><a href="../index.html">Início</a></li>
-                <li><a href="#">Temporadas</a></li>
-                <li><a href="#">Sobre nós</a></li>
-            </ul>
-        </nav>
-    </header>
+    <!-- MENU (dentro do header) -->
+    <nav class="navegacao">
+        <ul>
+            <li><a href="#">Sobre nós</a></li>
+            <li><a href="#">Temporadas</a></li>
+        </ul>
+    </nav>
+</header>
 
-    <!-- TÍTULO -->
-    <h1>Principais Personagens</h1>
+<!-- TÍTULO -->
+<h1>Principais Personagens</h1>
 
-    <!-- TABELA -->
-    <table class="tabela">
-        <tr>
-            <th>Foto</th>
-            <th>Ator</th>
-            <th>Personagem</th>
-        </tr>
-
-        <tr>
-            <td>
-                <img src="https://br.web.img3.acsta.net/c_162_216/pictures/19/02/27/20/54/3444169.jpg" alt="Elliot">
-            </td>
-            <td class="ator">
-                <a target="_blank" href="https://www.adorocinema.com/personalidades/personalidade-135438/">Rami Malek</a>
-            </td>
-            <td>Elliot Alderson</td>
-        </tr>
-
-        <tr>
-            <td>
-                <img src="https://br.web.img3.acsta.net/c_162_216/img/44/a9/44a9a700788f7e535a832371c601bf15.jpg" alt="Mr. Robot">
-            </td>
-            <td class="ator">
-                <a target="_blank" href="https://www.adorocinema.com/personalidades/personalidade-13604/">Christian Slater</a>
-            </td>
-            <td>Mr. Robot</td>
-        </tr>
-
-        
-
-    </table>
- <td>
-            <img class="tabela img"
-                src="https://br.web.img3.acsta.net/c_162_216/pictures/15/12/23/13/56/307572.jpg"
-                alt="Darlene"
-            >
-        </td>
-
-        <td class="ator">
-          <a class="botão_colorido" target="_blank" href="https://www.adorocinema.com/personalidades/personalidade-512054/">Carly Chaikin</a>
-        </td>
-
-        <td>
-            Darlene Alderson
-        </td>
-
-    </tr>
-
+<!-- TABELA -->
+<table class="tabela">
 
     <tr>
-
-        <td>
-            <img class="tabela img"
-                class  src="https://br.web.img3.acsta.net/c_310_420/pictures/19/06/28/02/04/4046543.jpg"
-                alt="Angela"
-            >
-        </td>
-          
-        <td class="ator">
-         <a class="botão_colorido" target="_blank" href="https://www.adorocinema.com/personalidades/personalidade-218946/">Portia Doubleday</a>
-        </td>
-
-        <td>
-            Angela Moss
-        </td>
-
+        <th>Foto</th>
+        <th>Ator</th>
+        <th>Personagem</th>
     </tr>
 
+    <tr>
+        <td>
+            <img class="tabela img" src="https://br.web.img3.acsta.net/c_162_216/pictures/19/02/27/20/54/3444169.jpg" alt="Elliot">
+        </td>
+        <td class="ator">
+            <a class="botão_colorido" target="_blank" href="https://www.adorocinema.com/personalidades/personalidade-135438/">Rami Malek</a>
+        </td>
+        <td>Elliot Alderson.</td>
+    </tr>
 
     <tr>
-
         <td>
-            <img class="tabela img"
-                src="https://br.web.img3.acsta.net/c_162_216/pictures/19/06/28/02/22/4893418.jpg"
-                alt="Tyrell"
-            >
+            <img class="tabela img" src="https://br.web.img3.acsta.net/c_162_216/img/44/a9/44a9a700788f7e535a832371c601bf15.jpg" alt="Mr. Robot">
         </td>
+        <td class="ator">
+            <a class="botão_colorido" target="_blank" href="https://www.adorocinema.com/personalidades/personalidade-13604/">Christian Slater</a>
+        </td>
+        <td>Mr. Robot</td>
+    </tr>
 
+    <tr>
+        <td>
+            <img class="tabela img" src="https://br.web.img3.acsta.net/c_162_216/pictures/15/12/23/13/56/307572.jpg" alt="Darlene">
+        </td>
+        <td class="ator">
+            <a class="botão_colorido" target="_blank" href="https://www.adorocinema.com/personalidades/personalidade-512054/">Carly Chaikin</a>
+        </td>
+        <td>Darlene Alderson</td>
+    </tr>
+
+    <tr>
+        <td>
+            <img class="tabela img" src="https://br.web.img3.acsta.net/c_310_420/pictures/19/06/28/02/04/4046543.jpg" alt="Angela">
+        </td>
+        <td class="ator">
+            <a class="botão_colorido" target="_blank" href="https://www.adorocinema.com/personalidades/personalidade-218946/">Portia Doubleday</a>
+        </td>
+        <td>Angela Moss</td>
+    </tr>
+
+    <tr>
+        <td>
+            <img class="tabela img" src="https://br.web.img3.acsta.net/c_162_216/pictures/19/06/28/02/22/4893418.jpg" alt="Tyrell">
+        </td>
         <td class="ator">
             <a class="botão_colorido" target="_blank" href="https://www.adorocinema.com/personalidades/personalidade-473699/">Martin Wallström</a>
         </td>
-
-        <td>
-            Tyrell Wellick
-        </td>
-
+        <td>Tyrell Wellick</td>
     </tr>
 
- <tr>
+    <tr>
         <td>
             <img class="tabela img" src="https://br.web.img2.acsta.net/c_162_216/medias/nmedia/18/79/20/81/19493061.jpg" alt="Phillip Price">
         </td>
         <td class="ator">
             <a class="botão_colorido" target="_blank" href="https://www.adorocinema.com/personalidades/personalidade-33033/">Michael Cristofer</a>
         </td>
-        <td>
-            Phillip Price
-        </td>
+        <td>Phillip Price</td>
     </tr>
 
     <tr>
@@ -247,9 +113,7 @@
         <td class="ator">
             <a class="botão_colorido" target="_blank" href="https://www.adorocinema.com/personalidades/personalidade-901777/">Grace Gummer</a>
         </td>
-        <td>
-            Dominique "Dom" DiPierro
-        </td>
+        <td>Dominique "Dom" DiPierro</td>
     </tr>
 
     <tr>
@@ -259,9 +123,7 @@
         <td class="ator">
             <a class="botão_colorido" target="_blank" href="https://www.adorocinema.com/personalidades/personalidade-81223/">BD Wong</a>
         </td>
-        <td>
-            Whiterose / Zhi Zhang
-        </td>
+        <td>Whiterose / Zhi Zhang</td>
     </tr>
 
     <tr>
@@ -271,9 +133,7 @@
         <td class="ator">
             <a class="botão_colorido" target="_blank" href="https://www.adorocinema.com/personalidades/personalidade-748995/">Stephanie Corneliussen</a>
         </td>
-        <td>
-            Joanna Wellick
-        </td>
+        <td>Joanna Wellick</td>
     </tr>
 
     <tr>
@@ -283,9 +143,7 @@
         <td class="ator">
             <a class="botão_colorido" target="_blank" href="https://www.adorocinema.com/personalidades/personalidade-79113/">Bobby Cannavale</a>
         </td>
-        <td>
-            Irving
-        </td>
+        <td>Irving</td>
     </tr>
 
     <tr>
@@ -295,9 +153,7 @@
         <td class="ator">
             <a class="botão_colorido" target="_blank" href="https://www.adorocinema.com/personalidades/personalidade-000000/">Elliot Villar</a>
         </td>
-        <td>
-            Fernando Vera
-        </td>
+        <td>Fernando Vera</td>
     </tr>
 
     <tr>
@@ -307,9 +163,7 @@
         <td class="ator">
             <a class="botão_colorido" target="_blank" href="https://www.adorocinema.com/personalidades/personalidade-000001/">Ashlie Atkinson</a>
         </td>
-        <td>
-            Janice
-        </td>
+        <td>Janice</td>
     </tr>
 
     <tr>
@@ -319,9 +173,7 @@
         <td class="ator">
             <a class="botão_colorido" target="_blank" href="https://www.adorocinema.com/personalidades/personalidade-000002/">Michel Gill</a>
         </td>
-        <td>
-            Gideon Goddard
-        </td>
+        <td>Gideon Goddard</td>
     </tr>
 
     <tr>
@@ -331,9 +183,7 @@
         <td class="ator">
             <a class="botão_colorido" target="_blank" href="https://www.adorocinema.com/personalidades/personalidade-000003/">Gloria Reuben</a>
         </td>
-        <td>
-            Dr. Krista Gordon
-        </td>
+        <td>Dr. Krista Gordon</td>
     </tr>
 
     <tr>
@@ -343,9 +193,7 @@
         <td class="ator">
             <a class="botão_colorido" target="_blank" href="https://www.adorocinema.com/personalidades/personalidade-000004/">Frankie Shaw</a>
         </td>
-        <td>
-            Shayla Nico
-        </td>
+        <td>Shayla Nico</td>
     </tr>
 
     <tr>
@@ -355,9 +203,7 @@
         <td class="ator">
             <a class="botão_colorido" target="_blank" href="https://www.adorocinema.com/personalidades/personalidade-000005/">Ron Cephas Jones</a>
         </td>
-        <td>
-            Leslie Romero
-        </td>
+        <td>Leslie Romero</td>
     </tr>
 
     <tr>
@@ -367,9 +213,7 @@
         <td class="ator">
             <a class="botão_colorido" target="_blank" href="https://www.adorocinema.com/personalidades/personalidade-000006/">Sunita Mani</a>
         </td>
-        <td>
-            Shama "Trenton" Biswas
-        </td>
+        <td>Shama "Trenton" Biswas</td>
     </tr>
 
     <tr>
@@ -379,9 +223,7 @@
         <td class="ator">
             <a class="botão_colorido" target="_blank" href="https://www.adorocinema.com/personalidades/personalidade-000007/">Azhar Khan</a>
         </td>
-        <td>
-            Sunil "Mobley" Markesh
-        </td>
+        <td>Sunil "Mobley" Markesh</td>
     </tr>
 
     <tr>
@@ -391,9 +233,7 @@
         <td class="ator">
             <a class="botão_colorido" target="_blank" href="https://www.adorocinema.com/personalidades/personalidade-000008/">Ben Rappaport</a>
         </td>
-        <td>
-            Ollie Parker
-        </td>
+        <td>Ollie Parker</td>
     </tr>
 
     <tr>
@@ -403,9 +243,7 @@
         <td class="ator">
             <a class="botão_colorido" target="_blank" href="https://www.adorocinema.com/personalidades/personalidade-000009/">Michael Drayer</a>
         </td>
-        <td>
-            Francis "Cisco" Shaw
-        </td>
+        <td>Francis "Cisco" Shaw</td>
     </tr>
 
     <tr>
@@ -415,9 +253,7 @@
         <td class="ator">
             <a class="botão_colorido" target="_blank" href="https://www.adorocinema.com/personalidades/personalidade-000010/">Bruce Altman</a>
         </td>
-        <td>
-            Terry Colby
-        </td>
+        <td>Terry Colby</td>
     </tr>
 
     <tr>
@@ -427,9 +263,7 @@
         <td class="ator">
             <a class="botão_colorido" target="_blank" href="https://www.adorocinema.com/personalidades/personalidade-000011/">Brian Stokes Mitchell</a>
         </td>
-        <td>
-            Scott Knowles
-        </td>
+        <td>Scott Knowles</td>
     </tr>
 
     <tr>
@@ -439,9 +273,7 @@
         <td class="ator">
             <a class="botão_colorido" target="_blank" href="https://www.adorocinema.com/personalidades/personalidade-000012/">Jeremy Holm</a>
         </td>
-        <td>
-            Donald "Mr. Sutherland" Hoffman
-        </td>
+        <td>Donald "Mr. Sutherland" Hoffman</td>
     </tr>
 
     <tr>
@@ -451,9 +283,7 @@
         <td class="ator">
             <a class="botão_colorido" target="_blank" href="https://www.adorocinema.com/personalidades/personalidade-000013/">Joey Bada$$</a>
         </td>
-        <td>
-            Leon
-        </td>
+        <td>Leon</td>
     </tr>
 
     <tr>
@@ -463,16 +293,10 @@
         <td class="ator">
             <a class="botão_colorido" target="_blank" href="https://www.adorocinema.com/personalidades/personalidade-000014/">Craig Robinson</a>
         </td>
-        <td>
-            Ray
-        </td>
+        <td>Ray</td>
     </tr>
 
 </table>
-
-
-
-
 
 </body>
 </html>
