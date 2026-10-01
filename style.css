@@ -313,7 +313,6 @@
     width: 100%;
     height: 85vh;
     margin-top: 0 !important;
-    padding-top: 80px; 
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), #000000), 
                       url('https://0chustaff.github.io/HTML-108-MR-ROBOT/backgrounds/mr-robot-logo-sd.jpeg') !important;
     background-repeat: no-repeat !important;
@@ -324,6 +323,7 @@
     justify-content: center;
     align-items: flex-end; 
     text-align: center;
+    padding-top: 40px; 
     border-bottom: 2px solid #ff2a2a;
     box-sizing: border-box;
 }
