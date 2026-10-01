@@ -232,7 +232,7 @@
     display: none;
     position: absolute;
     top: 100%;
-    left: 0;
+    right: 0;
     background-color: #0a0a0a;
     border: 1px solid #e74c3c;
     border-radius: 4px;
@@ -241,6 +241,8 @@
     padding: 8px 0;
     list-style: none;
     z-index: 1000;
+    flex-direction: column;
+    width: max-content;
 }
 
 .submenus li a {
@@ -262,5 +264,5 @@
 }
 
 .navegacao .categorias:hover .submenus {
-    display:block;
+    display:flex;
 }
