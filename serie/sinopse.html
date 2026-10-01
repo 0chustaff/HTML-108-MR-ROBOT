@@ -53,5 +53,17 @@
         <p class="subtitulo-banner">O QUE VOCÊ FAZ QUANDO O SEU MUNDO É UMA MENTIRA?</p>
         <div>
     </section>
+    <script>
+    window.addEventListener('scroll', function() {
+        const header = document.querySelector('header');
+        if (window.scrollY > 50) {
+            header.classList.add('transparente');
+        } else {
+            header.classList.remove('transparente');
+        }
+    });
+
+/* na logica o header ficará "preto" total mas ao descer a paǵina ele ficará transparente, requer testes */
+</script>
 </body>
 </html>
