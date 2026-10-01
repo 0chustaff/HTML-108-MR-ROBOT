@@ -311,14 +311,15 @@
 
 .banner-introducao {
     width: 100%;
-    height: 80vh;
-    margin-top: 70px;    
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), #000000), 
+    height: 85vh;
+    margin-top: 0 !important;
+    padding-top: 80px; 
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), #000000), 
                       url('https://0chustaff.github.io/HTML-108-MR-ROBOT/backgrounds/mr-robot-logo-sd.jpeg') !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
-    background-position: center 70px !important; 
-    background-attachment: scroll !important; 
+    background-position: center top !important; 
+    background-attachment: scroll !important;
     display: flex;
     justify-content: center;
     align-items: flex-end; 
