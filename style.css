@@ -691,7 +691,7 @@ body.pagina-sinopse .poster-img:hover {
     min-height: 100vh;
     padding: 120px 0;
     background-color: #0d0d0d !important;
-    background-image: linear-gradient(to left, #0d0d0d 0%, rgba(13, 13, 13, 0.9) 45%, transparent 85%), 
+    background-image: linear-gradient(to left, #0d0d0d 0%, rgba(13, 13, 13, 0.95) 45%, transparent 85%), 
                       url('backgrounds/mr-robot-coney-island2.jpg') !important; 
     background-size: cover !important;
     background-position: center top !important;
@@ -706,21 +706,23 @@ body.pagina-sinopse .poster-img:hover {
     box-shadow: inset 0 0 50px #000000;
 }
 
-.overlay-consequencias {
+.secao-consequencias-hero .overlay-consequencias,
+.secao-consequencias-hero .overlay-fivenine {
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
     padding: 0 40px;
-    display: flex;
-    justify-content: flex-end; 
+    display: flex !important;
+    justify-content: flex-end !important; 
 }
 
-.conteudo-consequencias {
-    max-width: 550px;
+.secao-consequencias-hero .conteudo-consequencias,
+.secao-consequencias-hero .conteudo-fivenine {
+    max-width: 550px !important;
     text-align: left; 
 }
 
-.conteudo-consequencias p {
+.secao-consequencias-hero p {
     font-size: 0.98rem;
     line-height: 1.6;
     margin-bottom: 14px;
@@ -734,12 +736,14 @@ body.pagina-sinopse .poster-img:hover {
         padding: 60px 0;
     }
     
-    .overlay-consequencias {
-        justify-content: center;
+    .secao-consequencias-hero .overlay-consequencias,
+    .secao-consequencias-hero .overlay-fivenine {
+        justify-content: center !important;
     }
 
-    .conteudo-consequencias {
-        max-width: 100%;
+    .secao-consequencias-hero .conteudo-consequencias,
+    .secao-consequencias-hero .conteudo-fivenine {
+        max-width: 100% !important;
     }
 }
 /* ---------------------------------------------------------------- Tabela - Sobre Nós ---------------------------------------------- */
