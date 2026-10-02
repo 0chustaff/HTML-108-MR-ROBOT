@@ -417,13 +417,7 @@ body.pagina-sinopse {
     transform: scale(1.02);
     box-shadow: 0 0 25px rgba(0, 229, 255, 0.6); 
 }
-
-@media (max-width: 768px) {
-    .secao-elliot {
-        flex-direction: column;
-    }
-
-/*------------------------------------------------------------- BLOCO 2 --------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------- BLOCO 2 ------------------------------------------------------ */
 body.pagina-sinopse .secao-dilema {
     display: flex !important;
     align-items: center !important;
@@ -438,30 +432,30 @@ body.pagina-sinopse .dilema-texto {
 }
 
 body.pagina-sinopse .dilema-texto .tag-secao {
-    font-family: 'Fira Code', monospace;
+    font-family: 'Fira Code', monospace !important;
     color: #ff2a2a !important;
-    font-size: 0.9rem;
-    letter-spacing: 2px;
-    display: block;
-    margin-bottom: 8px;
+    font-size: 0.9rem !important;
+    letter-spacing: 2px !important;
+    display: block !important;
+    margin-bottom: 8px !important;
 }
 
 body.pagina-sinopse .dilema-texto h2 {
-    font-family: 'Fira Code', monospace;
-    font-size: 1.8rem;
+    font-family: 'Fira Code', monospace !important;
+    font-size: 1.8rem !important;
     color: #ff2a2a !important;
-    margin-bottom: 20px;
-    letter-spacing: 1px;
+    margin-bottom: 20px !important;
+    letter-spacing: 1px !important;
     border-left: 4px solid #ff2a2a !important;
-    padding-left: 12px;
+    padding-left: 12px !important;
 }
 
 body.pagina-sinopse .dilema-texto p {
-    font-family: 'Ubuntu Mono', monospace;
-    font-size: 1.2rem;
-    line-height: 1.6;
+    font-family: 'Ubuntu Mono', monospace !important;
+    font-size: 1.2rem !important;
+    line-height: 1.6 !important;
     color: #ff2a2a !important;
-    margin-bottom: 15px;
+    margin-bottom: 15px !important;
 }
 
 body.pagina-sinopse .dilema-texto strong, 
@@ -481,13 +475,14 @@ body.pagina-sinopse .poster-img {
     border-radius: 4px !important;
     border: 1.5px solid #ff2a2a !important;
     box-shadow: 0 0 15px rgba(255, 42, 42, 0.6), 0 0 30px rgba(255, 42, 42, 0.3) !important;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease !important;
 }
 
 body.pagina-sinopse .poster-img:hover {
-    transform: scale(1.02);
+    transform: scale(1.02) !important;
     box-shadow: 0 0 25px rgba(255, 42, 42, 0.9), 0 0 45px rgba(255, 42, 42, 0.5) !important;
 }
+
 
 @media (max-width: 768px) {
     body.pagina-sinopse .secao-elliot,
@@ -495,9 +490,7 @@ body.pagina-sinopse .poster-img:hover {
         flex-direction: column !important;
     }
 }
-/* ---------------------------------------------------------------- Tabela - Sobre Nós -------------------------------------------------------------------------
-/* separa benicioooooooooooooooooooooooooooooooooooo, porra, se n fica confuso */ 
-}
+/* ---------------------------------------------------------------- Tabela - Sobre Nós ---------------------------------------------- */
 .tabela-sobre {
     margin: 60px auto;              /* centraliza na horizontal */
     border-collapse: collapse;
