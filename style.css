@@ -746,6 +746,39 @@ body.pagina-sinopse .poster-img:hover {
         max-width: 100% !important;
     }
 }
+/* ----------------------------------------------------------------  terminal final---------------------------------------------- */
+.linha-comando-final {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 15px;
+    border: 1px solid #333;
+    border-radius: 4px;
+}
+
+.prompt-terminal {
+    color: #e74c3c;
+    font-family: 'Fira Code', monospace;
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 0.9rem;
+}
+
+.campo-digite-aqui {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #00ff66;
+    font-family: 'Fira Code', monospace;
+    font-size: 0.9rem;
+    width: 100%;
+    caret-color: #00ff66;
+}
+
+.campo-digite-aqui::placeholder {
+    color: rgba(0, 255, 102, 0.3);
+}
 /* ---------------------------------------------------------------- Tabela - Sobre Nós ---------------------------------------------- */
 .tabela-sobre {
     margin: 60px auto;              /* centraliza na horizontal */
