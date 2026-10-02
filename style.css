@@ -424,19 +424,20 @@ body.pagina-sinopse {
     }
 
 /*------------------------------------------------------------- BLOCO 2 --------------------------------------------------------------------------------------- */
-.secao-dilema {
+body.pagina-sinopse .secao-dilema {
     display: flex !important;
-    align-items: center;
-    justify-content: space-between;
-    gap: 40px;
-    margin-bottom: 80px;
+    align-items: center !important;
+    justify-content: space-between !important;
+    gap: 40px !important;
+    margin-bottom: 80px !important;
+    width: 100% !important;
 }
 
-.dilema-texto {
-    flex: 1;
+body.pagina-sinopse .dilema-texto {
+    flex: 1 !important;
 }
 
-.dilema-texto .tag-secao {
+body.pagina-sinopse .dilema-texto .tag-secao {
     font-family: 'Fira Code', monospace;
     color: #ff2a2a !important;
     font-size: 0.9rem;
@@ -445,8 +446,8 @@ body.pagina-sinopse {
     margin-bottom: 8px;
 }
 
-.dilema-texto h2 {
-    font-family: 'Fira Code', monospace; 
+body.pagina-sinopse .dilema-texto h2 {
+    font-family: 'Fira Code', monospace;
     font-size: 1.8rem;
     color: #ff2a2a !important;
     margin-bottom: 20px;
@@ -455,41 +456,42 @@ body.pagina-sinopse {
     padding-left: 12px;
 }
 
-.dilema-texto p {
-    font-family: 'Ubuntu Mono', monospace; 
-    font-size: 1.2rem; 
+body.pagina-sinopse .dilema-texto p {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 1.2rem;
     line-height: 1.6;
     color: #ff2a2a !important;
     margin-bottom: 15px;
 }
 
-.dilema-texto strong, 
-.dilema-texto i {
+body.pagina-sinopse .dilema-texto strong, 
+body.pagina-sinopse .dilema-texto i {
     color: #ffffff !important;
 }
 
-.dilema-poster {
-    flex: 1;
-    display: flex;
-    justify-content: center;
+body.pagina-sinopse .dilema-poster {
+    flex: 1 !important;
+    display: flex !important;
+    justify-content: center !important;
 }
 
-.dilema-poster .poster-img {
-    width: 100%;
-    max-width: 420px;
-    border-radius: 4px;
-    border: 1px solid #ff2a2a !important;
-    box-shadow: 0 0 10px rgba(255, 42, 42, 0.3) !important;
+body.pagina-sinopse .poster-img {
+    width: 100% !important;
+    max-width: 420px !important;
+    border-radius: 4px !important;
+    border: 1.5px solid #ff2a2a !important;
+    box-shadow: 0 0 15px rgba(255, 42, 42, 0.6), 0 0 30px rgba(255, 42, 42, 0.3) !important;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.dilema-poster .poster-img:hover {
+body.pagina-sinopse .poster-img:hover {
     transform: scale(1.02);
-    box-shadow: 0 0 25px rgba(255, 42, 42, 0.6) !important;
+    box-shadow: 0 0 25px rgba(255, 42, 42, 0.9), 0 0 45px rgba(255, 42, 42, 0.5) !important;
 }
 
 @media (max-width: 768px) {
-    .secao-dilema {
+    body.pagina-sinopse .secao-elliot,
+    body.pagina-sinopse .secao-dilema {
         flex-direction: column !important;
     }
 }
