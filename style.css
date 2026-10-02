@@ -502,9 +502,9 @@ body.pagina-sinopse .poster-img:hover {
     width: 100%;
     max-width: 950px;
     background-color: #0a0a0a;
-    border: 1px solid #ff2a2a;
+    border: 1px solid #111111 !important; 
     border-radius: 8px;
-    box-shadow: 0 0 20px rgba(255, 42, 42, 0.25);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.9) !important; 
     overflow: hidden;
 }
 
