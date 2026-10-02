@@ -632,3 +632,33 @@ body.pagina-sinopse .poster-img:hover {
     border-radius: 6px;
     display: block;
 }
+/* ------------------------------------------------------ Agradecimentos --------------------------------------------- */
+.bloco-agradecimentos {
+    width: 100%;
+    min-height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.terminal-body-agradecimento {
+    padding: 40px;
+    text-align: center;
+}
+
+.terminal-body-agradecimento h2 {
+    font-family: 'Fira Code', monospace;
+    color: #ff2a2a;
+    font-size: 1.8rem;
+    margin: 15px 0;
+}
+
+.terminal-body-agradecimento p {
+    font-family: 'Ubuntu Mono', monospace;
+    color: #cccccc;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+}
