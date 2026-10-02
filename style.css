@@ -426,13 +426,10 @@ body.pagina-sinopse {
 /*------------------------------------------------------------- BLOCO 2 --------------------------------------------------------------------------------------- */
 .secao-dilema {
     display: flex !important;
-    flex-direction: row !important;
     align-items: center;
     justify-content: space-between;
     gap: 40px;
-    margin-top: 60px;
     margin-bottom: 80px;
-    width: 100%;
 }
 
 .dilema-texto {
@@ -462,13 +459,13 @@ body.pagina-sinopse {
     font-family: 'Ubuntu Mono', monospace; 
     font-size: 1.2rem; 
     line-height: 1.6;
-    color: #e74c3c !important; 
+    color: #ff2a2a !important;
     margin-bottom: 15px;
 }
 
 .dilema-texto strong, 
 .dilema-texto i {
-    color: #ffffff !important; 
+    color: #ffffff !important;
 }
 
 .dilema-poster {
@@ -481,14 +478,14 @@ body.pagina-sinopse {
     width: 100%;
     max-width: 420px;
     border-radius: 4px;
-    border: 1px solid #ff2a2a !important; 
-    box-shadow: 0 0 15px rgba(255, 42, 42, 0.3);
+    border: 1px solid #ff2a2a !important;
+    box-shadow: 0 0 10px rgba(255, 42, 42, 0.3) !important;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .dilema-poster .poster-img:hover {
     transform: scale(1.02);
-    box-shadow: 0 0 25px rgba(255, 42, 42, 0.5);
+    box-shadow: 0 0 25px rgba(255, 42, 42, 0.6) !important;
 }
 
 @media (max-width: 768px) {
