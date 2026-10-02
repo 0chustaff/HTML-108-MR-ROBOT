@@ -607,7 +607,7 @@ body.pagina-sinopse .poster-img:hover {
     margin-left: calc(-50vw + 50%); 
     min-height: 80vh;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.95) 30%, rgba(0, 0, 0, 0.4) 70%, transparent 100%), 
-                      url('../backgrounds/mr-robot-coney-island2.jpg');
+                      url('https://0chustaff.github.io/HTML-108-MR-ROBOT/backgrounds/mr-robot-coney-island.jpg');
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -674,7 +674,7 @@ body.pagina-sinopse .poster-img:hover {
 @media (max-width: 768px) {
     .secao-fivenine-hero {
         background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9) 50%, rgba(0, 0, 0, 0.7) 100%), 
-                          url('../backgrounds/mr-robot-coney-island2.jpg');
+                          url('https://0chustaff.github.io/HTML-108-MR-ROBOT/backgrounds/mr-robot-coney-island2.jpg');
         background-attachment: scroll;
     }
     
