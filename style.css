@@ -691,8 +691,8 @@ body.pagina-sinopse .poster-img:hover {
     min-height: 100vh;
     padding: 120px 0;
     background-color: #0d0d0d !important;
-    background-image: linear-gradient(to right, #0d0d0d 0%, rgba(13, 13, 13, 0.92) 45%, transparent 85%), 
-                      url('https://0chustaff.github.io/HTML-108-MR-ROBOT/backgrounds/mr-robot-coney-island2.jpg') !important;
+    background-image: linear-gradient(to left, #0d0d0d 0%, rgba(13, 13, 13, 0.9) 45%, transparent 85%), 
+                      url('backgrounds/mr-robot-coney-island2.jpg') !important; 
     background-size: cover !important;
     background-position: center top !important;
     background-repeat: no-repeat !important;
@@ -711,10 +711,13 @@ body.pagina-sinopse .poster-img:hover {
     max-width: 1300px;
     margin: 0 auto;
     padding: 0 40px;
+    display: flex;
+    justify-content: flex-end; 
 }
 
 .conteudo-consequencias {
-    max-width: 520px;
+    max-width: 550px;
+    text-align: left; 
 }
 
 .conteudo-consequencias p {
@@ -726,11 +729,15 @@ body.pagina-sinopse .poster-img:hover {
 @media (max-width: 768px) {
     .secao-consequencias-hero {
         background-image: linear-gradient(to bottom, #0d0d0d 60%, rgba(13, 13, 13, 0.8) 100%), 
-                          url('https://0chustaff.github.io/HTML-108-MR-ROBOT/backgrounds/mr-robot-coney-island2.jpg') !important;
+                          url('backgrounds/mr-robot-coney-island2.jpg') !important;
         background-attachment: scroll !important;
         padding: 60px 0;
     }
     
+    .overlay-consequencias {
+        justify-content: center;
+    }
+
     .conteudo-consequencias {
         max-width: 100%;
     }
