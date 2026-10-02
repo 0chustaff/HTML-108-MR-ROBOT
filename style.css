@@ -502,9 +502,9 @@ body.pagina-sinopse .poster-img:hover {
     width: 100%;
     max-width: 950px;
     background-color: #0a0a0a;
-    border: 1px solid #111111 !important; 
+    border: 1px solid #1a1a1a !important;
     border-radius: 8px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.9) !important; 
+    box-shadow: 0 0 15px #000000, 0 0 30px #000000, 0 0 45px rgba(0, 0, 0, 0.9) !important;
     overflow: hidden;
 }
 
@@ -544,11 +544,14 @@ body.pagina-sinopse .poster-img:hover {
     align-items: center;
 }
 
-.img-do-container img {
-    width: 100%;
-    border-radius: 4px;
-    border: 1.5px solid #ff2a2a;
-    box-shadow: 0 0 10px rgba(255, 42, 42, 0.3);
+.img-do-container img,
+.img-terminal {
+    width: 100% !important;
+    height: auto !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    display: block !important;
 }
 
 .terminal-texto h2 {
