@@ -508,7 +508,6 @@ body.pagina-sinopse .poster-img:hover {
     overflow: hidden;
 }
 
-
 .terminal-tarja {
     background-color: #161616;
     padding: 10px 15px;
@@ -535,7 +534,6 @@ body.pagina-sinopse .poster-img:hover {
     margin-left: 10px;
 }
 
-
 .terminal-body {
     padding: 30px;
     display: grid;
@@ -544,14 +542,34 @@ body.pagina-sinopse .poster-img:hover {
     align-items: center;
 }
 
-.img-do-container img,
-.img-terminal {
-    width: 100% !important;
-    height: auto !important;
-    mix-blend-mode: screen !important; 
-    transform: scale(1.25) !important;  
-    transform-origin: center !important;
+.img-do-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: visible !important;
 }
+
+.img-terminal {
+    width: 130% !important;
+    max-width: none !important;
+    height: auto !important;
+    border: none !important;
+    box-shadow: none !important;
+    margin-left: -15% !important;
+    filter: contrast(160%) brightness(120%) !important;
+    mix-blend-mode: screen !important;
+}
+
+.tag-secao {
+    color: #ffffff !important;
+    font-family: 'Fira Code', monospace;
+    font-size: 0.95rem;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
 .terminal-texto h2 {
     font-family: 'Fira Code', monospace;
     color: #ff2a2a;
@@ -566,15 +584,6 @@ body.pagina-sinopse .poster-img:hover {
     line-height: 1.6;
 }
 
-.tag-secao {
-    color: #aaaaaa !important;
-    font-family: 'Fira Code', monospace;
-    font-size: 0.9rem;
-    font-weight: bold;
-    display: block;
-    margin-bottom: 5px;
-}
-
 .citacao {
     margin-top: 20px;
     padding: 10px 15px;
@@ -585,7 +594,6 @@ body.pagina-sinopse .poster-img:hover {
     font-weight: bold;
     letter-spacing: 1px;
 }
-
 
 @media (max-width: 768px) {
     .terminal-body {
