@@ -677,3 +677,13 @@ body.pagina-agradecimentos {
     max-width: 600px;
     margin: 0 auto;
 }
+.gif-agradecimento {
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+    border-radius: 6px;
+    border: 1px solid #333;
+    box-shadow: 0 0 15px rgba(255, 42, 42, 0.2);
+    margin: 20px auto;
+    display: block;
+}
