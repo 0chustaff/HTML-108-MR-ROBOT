@@ -12,7 +12,7 @@
 </head>
 <body class="pagina-sinopse">
 
-    <header class="tarja-site">
+    <header class="tarja-site escuro">
         <div class="marca">
             <a href="../index.html">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Mr._Robot_Logo.svg" alt="Mr. Robot" class="logo-img">
@@ -40,7 +40,7 @@
                     <a href="#">SOBRE NÓS</a>
                     <ul class="submenus">
                        <li><a href="../index_protótipo/sobre-nos.html">Quem Somos</a></li>
-                        <li><a href="#">Projeto</a></li>
+                        <li><a href="../agradecimentos.html">Agradecimentos</a></li>
                     </ul>
                 </li>
             </ul>
@@ -128,9 +128,9 @@
     window.addEventListener('scroll', function() {
         const header = document.querySelector('header');
         if (window.scrollY > 50) {
-            header.classList.add('transparente');
+            header.classList.remove('escuro');
         } else {
-            header.classList.remove('transparente');
+            header.classList.add('escuro');
         }
     });
 
