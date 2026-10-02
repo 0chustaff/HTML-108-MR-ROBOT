@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nós - Mr. Robot</title>
+    <link rel="stylesheet" href="sobrenos.css">
+    <link rel="shortcut icon" href="../fav-mr-robot.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url("sobre_nós_background.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            min-height: 100vh;
+            font-family: 'Ubuntu Mono', monospace;
+        }
+
+        h1 {
+            text-align: center;
+            color: #e74c3c;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin: 60px 0 50px 0;
+        }
+         
+        .tabela-sobre {
+        margin: 60px auto;              /* centraliza na horizontal */
+        border-collapse: collapse;
+        background: #1a1a1a;            /* fundo cinza escuro */
+        border: 2px solid #e74c3c;      /* borda vermelha */
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(231, 76, 60, 0.6);
+        font-family: 'Ubuntu Mono', monospace;
+        }
+
+        .tabela-sobre th {
+            background: #e74c3c;
+            color: #000;
+            padding: 15px 25px;
+        }
+
+        .tabela-sobre td {
+            padding: 15px 25px;
+            color: #fff;                    /* texto branco */
+            text-align: center;
+            border-top: 1px solid #333;     /* linha divisória */
+        }
+
+        .tabela-sobre img {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 6px;
+            display: block;
+        }
+
+        .tabela-integrantes {
+            width: 90%;
+            max-width: 800px;
+            margin: 30px auto 60px auto;
+            border-collapse: collapse;
+            background-color: rgba(13, 13, 13, 0.85);
+            border: 1px solid #ff2a2a;
+            box-shadow: 0 0 15px rgba(255, 42, 42, 0.2);
+            border-radius: 6px;
+            overflow: hidden;
+            font-family: 'Ubuntu Mono', monospace;
+        }
+
+        .tabela-integrantes th {
+            background-color: #ff2a2a;
+            color: #000000;
+            padding: 12px 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-align: left;
+        }
+
+        .tabela-integrantes td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #222222;
+            color: #cccccc;
+            font-size: 0.95rem;
+        }
+
+        .tabela-integrantes tr:last-child td {
+            border-bottom: none;
+        }
+
+        .tabela-integrantes tr:hover {
+            background-color: rgba(255, 42, 42, 0.08);
+        }
+
+        .tabela-integrantes td strong {
+            color: #ffffff;
+            font-family: 'Fira Code', monospace;
+        }
+    
+    </style>
+</head>
+
+<body>
+
+    <!-- ===== TARJA / HEADER ===== -->
+    <header class="tarja-site">
+        <div class="marca">
+            <a href="../../index.html">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Mr._Robot_Logo.svg" 
+                     alt="Mr. Robot" 
+                     class="logo-img">
+            </a>
+        </div>
+
+        <nav class="navegacao">
+            <ul>
+                <li class="categorias">
+                    <a href="#">SÉRIE</a>
+                    <ul class="submenus">
+                        <li><a href="../serie/sinopse.html">Sinopse</a></li>
+                        <li><a href="../serie/personagens/personagens.html">Personagens</a></li>
+                        <li><a href="../serie/curiosidades.html">Curiosidades &amp; Prêmios</a></li>
+                    </ul>
+                </li>
+                <li class="categorias">
+                    <a href="#">TEMPORADAS</a>
+                    <ul class="submenus">
+                        <li><a href="../serie/guia-episodios.html">Guia de Episódios</a></li>
+                        <li><a href="https://www.primevideo.com/-/pt/detail/0SJJSQE04USSW0CM5BMESSR1IG" target="_blank" rel="noopener noreferrer">Onde assistir</a></li>
+                    </ul>
+                </li>
+                <li class="categorias">
+                    <a href="sobre-nos.html">SOBRE NÓS</a>
+                    <ul class="submenus">
+                        <li><a href="sobre-nos.html">Quem Somos</a></li>
+                        <li><a href="../agradecimentos.html">Agradecimentos</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+<table class="tabela-sobre">
+    <thead>
+        <tr>
+            <th>Foto</th>
+            <th>Alunos</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><img src="WhatsApp Image 2026-10-01 at 20.29.10.jpeg" alt="os cara"></td>
+            <td>The Boys (Vanderson, Luiz, Gilvan, Benício)</td>
+        </tr>
+    </tbody>
+</table>
+
+
+<table class="tabela-integrantes">
+    <thead>
+        <tr>
+            <th>Aluno</th>
+            <th>Função / O que fez</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Vanderson</strong></td>
+            <td>Auxiliar de Código</td>
+        </tr>
+        <tr>
+            <td><strong>Luiz</strong></td>
+            <td>Responsável pela criação da Página Inicial e de toda sua estilização, Menu Suspenso, das abas de <strong>Sinopse</strong> e <strong>Agradecimentos.</strong></td>
+        </tr>
+        <tr>
+            <td><strong>Gilvan</strong></td>
+            <td>Testador, Auxiliar de código e responsável pela organização geral dos arquivos.</td>
+        </tr>
+        <tr>
+            <td><strong>Benicio</strong></td>
+            <td>Responsável pela criação das abas de <strong>Personagens</strong>, <strong>Login</strong> e <strong>Quem Somos.</strong></td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
