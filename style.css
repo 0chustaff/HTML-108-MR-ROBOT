@@ -408,14 +408,14 @@ body.pagina-sinopse {
     width: 100%;
     max-width: 420px;
     border-radius: 4px;
-    border: 1px solid #333333;
-    box-shadow: 0 0 10px rgba(255, 42, 42, 0.2);
+    border: 1px solid #00e5ff; 
+    box-shadow: 0 0 10px rgba(0, 229, 255, 0.3); 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .imagem-elliot img:hover {
     transform: scale(1.02);
-    box-shadow: 0 0 25px rgba(255, 42, 42, 0.4);
+    box-shadow: 0 0 25px rgba(0, 229, 255, 0.6); 
 }
 
 @media (max-width: 768px) {
@@ -424,22 +424,24 @@ body.pagina-sinopse {
     }
 
 /*------------------------------------------------------------- BLOCO 2 --------------------------------------------------------------------------------------- */
-
 .secao-dilema {
-    display: flex;
+    display: flex !important;
+    flex-direction: row !important;
     align-items: center;
     justify-content: space-between;
     gap: 40px;
+    margin-top: 60px;
     margin-bottom: 80px;
+    width: 100%;
 }
 
 .dilema-texto {
     flex: 1;
 }
 
-.tag-secao {
+.dilema-texto .tag-secao {
     font-family: 'Fira Code', monospace;
-    color: #ff2a2a;
+    color: #ff2a2a !important;
     font-size: 0.9rem;
     letter-spacing: 2px;
     display: block;
@@ -449,10 +451,10 @@ body.pagina-sinopse {
 .dilema-texto h2 {
     font-family: 'Fira Code', monospace; 
     font-size: 1.8rem;
-    color: #ff2a2a;
+    color: #ff2a2a !important;
     margin-bottom: 20px;
     letter-spacing: 1px;
-    border-left: 4px solid #ff2a2a;
+    border-left: 4px solid #ff2a2a !important;
     padding-left: 12px;
 }
 
@@ -460,13 +462,13 @@ body.pagina-sinopse {
     font-family: 'Ubuntu Mono', monospace; 
     font-size: 1.2rem; 
     line-height: 1.6;
-    color: #ff2a2a;
+    color: #e74c3c !important; 
     margin-bottom: 15px;
 }
 
 .dilema-texto strong, 
 .dilema-texto i {
-    color: #ffffff;
+    color: #ffffff !important; 
 }
 
 .dilema-poster {
@@ -475,27 +477,26 @@ body.pagina-sinopse {
     justify-content: center;
 }
 
-.poster-img {
+.dilema-poster .poster-img {
     width: 100%;
     max-width: 420px;
     border-radius: 4px;
-    border: 1px solid #333333;
-    box-shadow: 0 0 10px rgba(255, 42, 42, 0.2);
+    border: 1px solid #ff2a2a !important; 
+    box-shadow: 0 0 15px rgba(255, 42, 42, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.poster-img:hover {
+.dilema-poster .poster-img:hover {
     transform: scale(1.02);
-    box-shadow: 0 0 25px rgba(255, 42, 42, 0.4);
+    box-shadow: 0 0 25px rgba(255, 42, 42, 0.5);
 }
 
 @media (max-width: 768px) {
     .secao-dilema {
-        flex-direction: column;
+        flex-direction: column !important;
     }
 }
-
-/* ---------------------------------------------------------------- Tabela Sobre Nós -------------------------------------------------------------------------
+/* ---------------------------------------------------------------- Tabela - Sobre Nós -------------------------------------------------------------------------
 /* separa benicioooooooooooooooooooooooooooooooooooo, porra, se n fica confuso */ 
 }
 .tabela-sobre {
