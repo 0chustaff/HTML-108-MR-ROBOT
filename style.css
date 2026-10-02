@@ -420,7 +420,6 @@ body.pagina-sinopse {
 /* --------------------------------------------------------- BLOCO 2 ------------------------------------------------------ */
 body.pagina-sinopse .secao-dilema {
     display: flex !important;
-    flex-direction: row-reverse !important; 
     align-items: center !important;
     justify-content: space-between !important;
     gap: 40px !important;
