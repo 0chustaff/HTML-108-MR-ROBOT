@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="../fav-mr-robot.ico" type="image/x-icon">
     <style>
      body{background-image:url("../../backgrounds/login.png");}
-     .tabela-sobre {
+    .tabela-sobre {
     margin: 60px auto;              /* centraliza na horizontal */
     border-collapse: collapse;
     background: #1a1a1a;            /* fundo cinza escuro */
@@ -39,6 +39,48 @@
     object-fit: cover;
     border-radius: 6px;
     display: block;
+}
+
+.tabela-integrantes {
+    width: 90%;
+    max-width: 800px;
+    margin: 30px auto 60px auto;
+    border-collapse: collapse;
+    background-color: rgba(13, 13, 13, 0.85);
+    border: 1px solid #ff2a2a;
+    box-shadow: 0 0 15px rgba(255, 42, 42, 0.2);
+    border-radius: 6px;
+    overflow: hidden;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.tabela-integrantes th {
+    background-color: #ff2a2a;
+    color: #000000;
+    padding: 12px 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.tabela-integrantes td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #222222;
+    color: #cccccc;
+    font-size: 0.95rem;
+}
+
+.tabela-integrantes tr:last-child td {
+    border-bottom: none;
+}
+
+.tabela-integrantes tr:hover {
+    background-color: rgba(255, 42, 42, 0.08);
+}
+
+.tabela-integrantes td strong {
+    color: #ffffff;
+    font-family: 'Fira Code', monospace;
 }
     </style>
 </head>
