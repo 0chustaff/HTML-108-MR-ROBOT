@@ -490,6 +490,98 @@ body.pagina-sinopse .poster-img:hover {
         flex-direction: column !important;
     }
 }
+/* ------------------------------------------------------------- bloco 3 ------------------------------------------------------------ */
+.secao-fsociety {
+    width: 100%;
+    margin: 60px 0 80px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.card-terminal {
+    width: 100%;
+    max-width: 950px;
+    background-color: #0a0a0a;
+    border: 1px solid #ff2a2a;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(255, 42, 42, 0.25);
+    overflow: hidden;
+}
+
+
+.terminal-tarja {
+    background-color: #161616;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #222;
+}
+
+.bola {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 6px;
+}
+.bola.vermelha { background-color: #ff5f56; }
+.bola.amarela { background-color: #ffbd2e; }
+.bola.verde { background-color: #27c93f; }
+
+.terminal-titulo {
+    color: #888;
+    font-family: 'Fira Code', monospace;
+    font-size: 0.85rem;
+    margin-left: 10px;
+}
+
+
+.terminal-body {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+}
+
+.img-do-container img {
+    width: 100%;
+    border-radius: 4px;
+    border: 1.5px solid #ff2a2a;
+    box-shadow: 0 0 10px rgba(255, 42, 42, 0.3);
+}
+
+.terminal-texto h2 {
+    font-family: 'Fira Code', monospace;
+    color: #ff2a2a;
+    font-size: 1.6rem;
+    margin: 10px 0;
+}
+
+.terminal-texto p {
+    font-family: 'Ubuntu Mono', monospace;
+    color: #cccccc;
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+
+.citacao {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: rgba(255, 42, 42, 0.1);
+    border-left: 3px solid #ff2a2a;
+    color: #ff2a2a;
+    font-family: 'Fira Code', monospace;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+@media (max-width: 768px) {
+    .terminal-body {
+        grid-template-columns: 1fr;
+    }
+}
 /* ---------------------------------------------------------------- Tabela - Sobre Nós ---------------------------------------------- */
 .tabela-sobre {
     margin: 60px auto;              /* centraliza na horizontal */
