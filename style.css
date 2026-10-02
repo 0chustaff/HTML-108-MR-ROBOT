@@ -354,6 +354,11 @@
     margin: 0;
 }
 /* -------------------------------------------------------- BLOCO 1 --------------------------------------------------------------------- */
+
+body.pagina-sinopse {
+    background-color: #0d0d0d;
+}
+
 .bloco-sinopse {
     max-width: 1100px;
     margin: 0 auto;
