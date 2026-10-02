@@ -684,12 +684,15 @@ body.pagina-sinopse .poster-img:hover {
 }
 /* ------------------------------------------------------ ÚLTIMO BLOCO (GLORIA) ------------------------------------------------------ */
 .secao-consequencias-hero {
+    position: relative;
+    z-index: 5;
     width: 100vw;
     margin-left: calc(-50vw + 50%); 
     min-height: 100vh;
     padding: 120px 0;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.98) 0%, rgba(0, 0, 0, 0.85) 45%, transparent 85%), 
-                      url('https://0chustaff.github.io/HTML-108-MR-ROBOT/backgrounds/mr-robot-coney-island.jpg2') !important;
+    background-color: #0d0d0d !important;
+    background-image: linear-gradient(to right, #0d0d0d 0%, rgba(13, 13, 13, 0.92) 45%, transparent 85%), 
+                      url('https://0chustaff.github.io/HTML-108-MR-ROBOT/backgrounds/mr-robot-coney-island2.jpg') !important;
     background-size: cover !important;
     background-position: center top !important;
     background-repeat: no-repeat !important;
@@ -703,18 +706,18 @@ body.pagina-sinopse .poster-img:hover {
     box-shadow: inset 0 0 50px #000000;
 }
 
-.secao-consequencias-hero .overlay-fivenine {
+.overlay-consequencias {
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
     padding: 0 40px;
 }
 
-.secao-consequencias-hero .conteudo-fivenine {
+.conteudo-consequencias {
     max-width: 520px;
 }
 
-.secao-consequencias-hero .conteudo-fivenine p {
+.conteudo-consequencias p {
     font-size: 0.98rem;
     line-height: 1.6;
     margin-bottom: 14px;
@@ -722,13 +725,13 @@ body.pagina-sinopse .poster-img:hover {
 
 @media (max-width: 768px) {
     .secao-consequencias-hero {
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.95) 60%, rgba(0, 0, 0, 0.8) 100%), 
+        background-image: linear-gradient(to bottom, #0d0d0d 60%, rgba(13, 13, 13, 0.8) 100%), 
                           url('https://0chustaff.github.io/HTML-108-MR-ROBOT/backgrounds/mr-robot-coney-island2.jpg') !important;
         background-attachment: scroll !important;
         padding: 60px 0;
     }
     
-    .secao-consequencias-hero .conteudo-fivenine {
+    .conteudo-consequencias {
         max-width: 100%;
     }
 }
