@@ -548,12 +548,10 @@ body.pagina-sinopse .poster-img:hover {
 .img-terminal {
     width: 100% !important;
     height: auto !important;
-    border: none !important;
-    border-radius: 0 !important;
-    box-shadow: none !important;
-    display: block !important;
+    mix-blend-mode: screen !important; 
+    transform: scale(1.25) !important;  
+    transform-origin: center !important;
 }
-
 .terminal-texto h2 {
     font-family: 'Fira Code', monospace;
     color: #ff2a2a;
@@ -566,6 +564,15 @@ body.pagina-sinopse .poster-img:hover {
     color: #cccccc;
     font-size: 1.05rem;
     line-height: 1.6;
+}
+
+.tag-secao {
+    color: #aaaaaa !important;
+    font-family: 'Fira Code', monospace;
+    font-size: 0.9rem;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
 }
 
 .citacao {
